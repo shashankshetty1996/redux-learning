@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+// Pros of context
+/**
+ * Data where you want
+ * Single source of truth
+ * Setup process - access straight forward?
+ * Provider - consumer pattern
+ */
+
+// Cons of context
+/**
+ * Parent where all the data will be stored will have too many business logic
+ * Sharing data across the context.
+ */
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">Let's Learn and deal with Redux</header>
+		</div>
+	);
 }
 
 export default App;
