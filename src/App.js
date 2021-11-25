@@ -1,7 +1,9 @@
 import "./App.css";
-import AddBlogs from "./components/blogs/AddBlogs";
+// import UserProfile from "./components/auth/UserProfile";
+import UserProfileHook from "./components/auth/UserProfileHook";
+// import AddBlogs from "./components/blogs/AddBlogs";
 // import BlogsByMe from "./components/blogs/BlogsByMe";
-import BlogsListing from "./components/blogs/BlogsListing";
+// import BlogsListing from "./components/blogs/BlogsListing";
 
 // Pros of context
 /**
@@ -21,9 +23,11 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<AddBlogs />
-				<BlogsListing />
+				{/* <AddBlogs />
+				<BlogsListing /> */}
 				{/* <BlogsByMe /> */}
+				{/* <UserProfile /> */}
+				<UserProfileHook />
 			</header>
 		</div>
 	);

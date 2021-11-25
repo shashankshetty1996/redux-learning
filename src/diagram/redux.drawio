@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="yD0JcluMfJncaVGdkciX" name="Context usage">
-        <mxGraphModel dx="1098" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="851" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -37,10 +37,10 @@
                 <mxCell id="lRLBPtUnvedsah9ZTDWW-12" value="User Profile" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="320" y="270" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="p4R0jRqEWiUBCtAcRWVX-12" value="&lt;br&gt;auth: { &lt;br&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;username: 'shashank',&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;token: &quot;hjdkbafjkvkjdsbjkfbns&quot;, &lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;address: &quot;&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp;....&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="p4R0jRqEWiUBCtAcRWVX-12" value="&lt;br&gt;auth: { &lt;br&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;username: 'shashank',&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;token: &quot;hjdkbafjkvkjdsbjkfbns&quot;, &lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;address: &quot;&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&amp;nbsp;....&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;}&lt;/span&gt;&lt;/div&gt;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="470" y="50" width="240" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="p4R0jRqEWiUBCtAcRWVX-13" value="blogs: [ &lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;{&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;i&lt;/span&gt;d: 1,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;title: &quot;Introduction to redux&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;content: &quot;lorem.....&quot;,&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;author: {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;n&lt;/span&gt;ame: 'shashank'&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="p4R0jRqEWiUBCtAcRWVX-13" value="blogs: [ &lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;{&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;i&lt;/span&gt;d: 1,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;title: &quot;Introduction to redux&quot;,&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;content: &quot;lorem.....&quot;,&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;author: {&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;n&lt;/span&gt;ame: 'shashank'&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;}&lt;br&gt;]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="20" y="30" width="240" height="100" as="geometry"/>
                 </mxCell>
             </root>
@@ -176,7 +176,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="nDEqROlR9MzsgdY38wOO" name="React-redux mindset">
-        <mxGraphModel dx="1098" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="851" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="LrBy1xGB4f3nlDIgwi8j-0"/>
                 <mxCell id="LrBy1xGB4f3nlDIgwi8j-1" parent="LrBy1xGB4f3nlDIgwi8j-0"/>
@@ -237,25 +237,87 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="o6Mduu1OejS50z5wgFjm" name="Dispatch">
-        <mxGraphModel dx="1098" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram id="o6Mduu1OejS50z5wgFjm" name="Subcribe data from redux store">
+        <mxGraphModel dx="851" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="krdxXRE0sqVv24yBQV7F-0"/>
                 <mxCell id="krdxXRE0sqVv24yBQV7F-1" parent="krdxXRE0sqVv24yBQV7F-0"/>
-                <mxCell id="krdxXRE0sqVv24yBQV7F-4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="krdxXRE0sqVv24yBQV7F-1" source="krdxXRE0sqVv24yBQV7F-2" target="krdxXRE0sqVv24yBQV7F-3">
+                <mxCell id="krdxXRE0sqVv24yBQV7F-4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="krdxXRE0sqVv24yBQV7F-1" source="krdxXRE0sqVv24yBQV7F-2" target="krdxXRE0sqVv24yBQV7F-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="krdxXRE0sqVv24yBQV7F-2" value="Create actionType" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="krdxXRE0sqVv24yBQV7F-1">
-                    <mxGeometry x="80" y="80" width="320" height="40" as="geometry"/>
+                <mxCell id="krdxXRE0sqVv24yBQV7F-2" value="connect from react-redux in component" style="rounded=0;whiteSpace=wrap;html=1;" parent="krdxXRE0sqVv24yBQV7F-1" vertex="1">
+                    <mxGeometry x="80" y="80" width="680" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="krdxXRE0sqVv24yBQV7F-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="krdxXRE0sqVv24yBQV7F-1" source="krdxXRE0sqVv24yBQV7F-3" target="krdxXRE0sqVv24yBQV7F-5">
+                <mxCell id="krdxXRE0sqVv24yBQV7F-6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="krdxXRE0sqVv24yBQV7F-1" source="krdxXRE0sqVv24yBQV7F-3" target="krdxXRE0sqVv24yBQV7F-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="krdxXRE0sqVv24yBQV7F-3" value="Register steps/code to change data in store insdie reducer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="krdxXRE0sqVv24yBQV7F-1">
-                    <mxGeometry x="80" y="160" width="320" height="40" as="geometry"/>
+                <mxCell id="krdxXRE0sqVv24yBQV7F-3" value="create a method which will connect redux store data and pass data as props to the component." style="rounded=0;whiteSpace=wrap;html=1;" parent="krdxXRE0sqVv24yBQV7F-1" vertex="1">
+                    <mxGeometry x="80" y="160" width="680" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="krdxXRE0sqVv24yBQV7F-5" value="connect to component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="krdxXRE0sqVv24yBQV7F-1">
-                    <mxGeometry x="80" y="240" width="320" height="40" as="geometry"/>
+                <mxCell id="A3Uz8PDZTzvtql-cUdMj-2" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="krdxXRE0sqVv24yBQV7F-1" source="krdxXRE0sqVv24yBQV7F-5" target="A3Uz8PDZTzvtql-cUdMj-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="krdxXRE0sqVv24yBQV7F-5" value="export connect method with mapStateToProps as it's first argument and pass the component as it's currying argument" style="rounded=0;whiteSpace=wrap;html=1;" parent="krdxXRE0sqVv24yBQV7F-1" vertex="1">
+                    <mxGeometry x="80" y="240" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="A3Uz8PDZTzvtql-cUdMj-0" value="mapStateToProps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="krdxXRE0sqVv24yBQV7F-1">
+                    <mxGeometry x="74" y="140" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="A3Uz8PDZTzvtql-cUdMj-1" value="To access the data returned from mapStateToProps is now avaliable using component's props" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="krdxXRE0sqVv24yBQV7F-1">
+                    <mxGeometry x="80" y="320" width="680" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="How to manipulation redux store data" id="Huwvi8vs96dmZy7xB3yM">
+        <mxGraphModel dx="851" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="Hn-L5KtVW2KLSrkSzdSR-0"/>
+                <mxCell id="Hn-L5KtVW2KLSrkSzdSR-1" parent="Hn-L5KtVW2KLSrkSzdSR-0"/>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="40" y="60" width="230" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-1" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Hn-L5KtVW2KLSrkSzdSR-1" source="Hn-L5KtVW2KLSrkSzdSR-3" target="GtV7Lh20gA7DpLi4Etgh-0">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Hn-L5KtVW2KLSrkSzdSR-3" value="Create a unique actionType for the purpose (Manipulating data)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="80" y="80" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-3" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Hn-L5KtVW2KLSrkSzdSR-1" source="GtV7Lh20gA7DpLi4Etgh-0" target="GtV7Lh20gA7DpLi4Etgh-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-0" value="Register actionType in reducer (Add a switch case)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="80" y="160" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Hn-L5KtVW2KLSrkSzdSR-1" source="GtV7Lh20gA7DpLi4Etgh-2" target="GtV7Lh20gA7DpLi4Etgh-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-2" value="Perform operation (logic) on the given actionType registered on the reducer. Resulting update in the store's data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="80" y="240" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-5" value="Redux store" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="40" y="60" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Hn-L5KtVW2KLSrkSzdSR-1" source="GtV7Lh20gA7DpLi4Etgh-6" target="GtV7Lh20gA7DpLi4Etgh-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-6" value="import connect from react-redux and export it along with component as it's currying argument" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="80" y="320" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Hn-L5KtVW2KLSrkSzdSR-1" source="GtV7Lh20gA7DpLi4Etgh-8" target="GtV7Lh20gA7DpLi4Etgh-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-8" value="create mapDispatchToProps function &amp;amp; pass it as 2nd argunment to connect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="80" y="400" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-13" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Hn-L5KtVW2KLSrkSzdSR-1" source="GtV7Lh20gA7DpLi4Etgh-10" target="GtV7Lh20gA7DpLi4Etgh-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-10" value="mapDispatchToProps will return Object of funcations. This functions will trigger dispatch method with actionType along with data passed to it." style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="80" y="480" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GtV7Lh20gA7DpLi4Etgh-12" value="Access this custom create function from mapDispatchToProps inside Component using props &amp;amp; invoke it." style="rounded=0;whiteSpace=wrap;html=1;spacing=4;" vertex="1" parent="Hn-L5KtVW2KLSrkSzdSR-1">
+                    <mxGeometry x="80" y="560" width="680" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

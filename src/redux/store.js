@@ -31,18 +31,9 @@ let blogIdx = initialState.blogs.length;
 
 // TODO: Teach combineReducer.
 function rootReducer(state = initialState, action) {
-	// action = { type: "", data: any };
+	// action = { type: actionType, data: any };
 
 	switch (action.type) {
-		case actionTypes.UPDATE_ADDRESS: {
-			const address = action.data;
-			const updatedState = { ...state, auth: { ...state.auth, address } };
-			// const updatedState = { ...state };
-			// updatedState["auth"]["address"] = address;
-			// return { ...state, auth: { ...state.auth, address: action.data } };
-			return updatedState;
-		}
-
 		case actionTypes.ADD_BLOG: {
 			const blog = { ...action.data }; // { title, content };
 			// const blog = { title: action.data.title, content: action.data.content }; // { title, content };
@@ -52,6 +43,15 @@ function rootReducer(state = initialState, action) {
 
 			const updatedState = { ...state };
 			updatedState.blogs.push(blog);
+			return updatedState;
+		}
+
+		case actionTypes.UPDATE_ADDRESS: {
+			// cloning the state
+			const updatedState = { ...state };
+
+			updatedState.auth.address = action.data;
+
 			return updatedState;
 		}
 
