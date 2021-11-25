@@ -1,4 +1,7 @@
 import "./App.css";
+import AddBlogs from "./components/blogs/AddBlogs";
+// import BlogsByMe from "./components/blogs/BlogsByMe";
+import BlogsListing from "./components/blogs/BlogsListing";
 
 // Pros of context
 /**
@@ -17,7 +20,11 @@ import "./App.css";
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">Let's Learn and deal with Redux</header>
+			<header className="App-header">
+				<AddBlogs />
+				<BlogsListing />
+				{/* <BlogsByMe /> */}
+			</header>
 		</div>
 	);
 }
