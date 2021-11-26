@@ -1,9 +1,10 @@
 import "./App.css";
 // import UserProfile from "./components/auth/UserProfile";
-import UserProfileHook from "./components/auth/UserProfileHook";
+// import UserProfileHook from "./components/auth/UserProfileHook";
 // import AddBlogs from "./components/blogs/AddBlogs";
 // import BlogsByMe from "./components/blogs/BlogsByMe";
 // import BlogsListing from "./components/blogs/BlogsListing";
+import TodoMain from "./components/todo/TodoMain";
 
 // Pros of context
 /**
@@ -27,7 +28,8 @@ function App() {
 				<BlogsListing /> */}
 				{/* <BlogsByMe /> */}
 				{/* <UserProfile /> */}
-				<UserProfileHook />
+				{/* <UserProfileHook /> */}
+				<TodoMain />
 			</header>
 		</div>
 	);
